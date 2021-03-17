@@ -1,0 +1,136 @@
+body
+{
+    margin: 0;	
+}
+
+.left-block
+{
+    width: 330px;    
+	position: absolute;
+	left: 480px;	
+}	
+
+.left-block-image
+{
+    position: relative;
+    top: 100px;
+    width: 330px;
+    height: 350px;
+	margin: 0 0 44px 0;
+}
+
+.left-block-list
+{
+    top: 100px;
+	position: relative;
+}
+
+.left-block-list__list
+{
+    padding: 0 0 20px 0;
+	margin: 14px 20px 19px 21px;
+}
+
+.left-block-list__list-header
+{
+	font: 600 24px Open Sans, sans-serif;
+    color: #15a98c;	
+	margin: 0;
+}
+
+.left-block-list__list-item
+{
+	font: 19px/1.895 Georgia;
+    color: #555;
+}	
+
+.right-block
+{
+    width: 570px;
+	position: absolute;
+	left: 870px;
+}
+
+.right-block-quotes
+{
+    position: relative;	
+	top: 150px;
+	width: 530px;
+	height: 300px;
+}
+
+.right-block-quotes__text
+{
+    font-size: 28px;
+    font-family: Georgia;
+    color: #848484;
+    font-style: italic;
+    line-height: 1.5;
+    position: absolute;
+    margin: 0;
+	left: 60px;
+    top: 69px;	
+}
+
+.right-block-quotes__author
+{
+    color: #333;
+	font: 600 16px/2.625 Open Sans, sans-serif;
+    position: absolute;
+	left: 63px;
+    top: 139px;	
+}
+
+.right-block-content
+{
+    position: relative;	
+	top: 163px;
+}
+
+.right-block-content__name
+{
+	left: 4px;
+    color: #333;
+	font: 700 48px/0.875 Open Sans, sans-serif;
+    position: relative;
+    margin-bottom: 23px;	
+}
+
+.rigth-block-content__description
+{
+    color: #555;
+	font: 19px/1.7 Georgia;
+	position: relative;
+	margin-top: 40px;
+}
+
+.rigth-block-content__hobby
+{
+    color: #333;
+	font: 600 36px/1.167 Open Sans, sans-serif;
+	position: relative;
+	margin: 41px 0 0 0;
+	left: -3px;
+}
+
+.right-block-content__hobby-description
+{
+	color: #555;
+    font: 19px/1.7 Georgia;
+	position: relative;
+	margin: 16px 0 46px 0;
+}
+
+.right-block-content__contact
+{
+    font: 19px Georgia;
+	color: #15a98c;
+	position: relative;
+	margin-top: 95px;	
+}
+.right-block-content::after
+{
+    content: '→';
+	color: #15a98c;
+}
+
